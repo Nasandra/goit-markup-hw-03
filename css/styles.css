@@ -71,6 +71,7 @@ img {
   background-color: #ffffff;
 }
 .header-navi {
+  display: flex;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
