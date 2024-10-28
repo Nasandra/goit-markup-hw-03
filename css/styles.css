@@ -41,18 +41,9 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
-
-.visually-hidden {
-  margin: -1px;
-  border: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .section-title {
@@ -69,8 +60,13 @@ img {
 
 .header {
   background-color: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
   display: flex;
 }
+
 .header-navi {
   display: flex;
   align-items: center;
@@ -110,6 +106,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
+  gap: 40px;
 }
 
 .header-navi-link:hover,
@@ -189,6 +186,15 @@ img {
   background-color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.visually-hidden {
+  margin: -1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .approaches-list {
@@ -314,7 +320,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
