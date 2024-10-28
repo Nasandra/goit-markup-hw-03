@@ -254,9 +254,13 @@ img {
 .section-title {
 }
 .team-list {
+  display: flex;
+  gap: 24px;
 }
 .team-item {
   background-color: #ffffff;
+  width: calc(100%-3 * 24px) / 4;
+  border-radius: 0 0 4px 4px;
 }
 .team-item-img {
   margin-bottom: 32px;
@@ -273,6 +277,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
   color: #2e2f42;
 }
 .team-subtitle-text {
